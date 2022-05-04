@@ -10,7 +10,7 @@ public partial class MainWindow
     public MainWindow()
     {
         InitializeComponent();
-        DataContext = new MainWindowViewModel();
+        ViewModel = new();
         _ = JsonSerializer.Serialize(new Settings(), SettingsJsonSerializerContext.Default.Settings);
     }
 }
