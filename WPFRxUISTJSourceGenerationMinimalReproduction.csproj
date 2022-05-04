@@ -7,4 +7,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ReactiveUI.WPF" Version="18.0.10" />
+  </ItemGroup>
+
 </Project>
